@@ -1,6 +1,6 @@
 print("Bem vindo ao jogo da Adivinhação")
 
-numero_secreto = 42
+numero_secreto = 41
 
 chute = input("Digite o seu numero: ")
 
