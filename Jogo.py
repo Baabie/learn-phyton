@@ -13,4 +13,4 @@ if(numero_secreto == chute):
 else: 
     print("Você errou")
 
-print("Fim do jogo")
+print("O número correto era 42")
