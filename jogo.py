@@ -16,4 +16,4 @@ else:
     if(chute < numero_secreto):
         print("Você errou! O seu chute foi menor do que o número secreto.")
 
-print("Fim de jogo.")
+print("Fim de jogo")
