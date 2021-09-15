@@ -5,6 +5,7 @@ total_de_tentativas = 3
 rodada = 1 
 
 for rodada in range(1, total_de_tentativas + 1):
+    #range() permite criar uma sequência de números que variam de um ponte de partida até um ponto final
     print('Tentativa {} de {}'.format(rodada, total_de_tentativas))
     chute_str = input("Digite um número entre 1 e 100: ")
     print("Você digitou " , chute_str) 
