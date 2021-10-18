@@ -5,6 +5,11 @@ def jogar():
     print('*************************************************')
 
     palavra_secreta = 'abacaxi'
+    letras_acertadas = ['_','_','_','_','_','_','_',]
+    letras_faltando = str(letras_acertadas.count('_'))
+    print('Ainda faltam acertar {} letras'.format(letras_faltando))
+    
+
     enforcou = False
     acertou = False
 
@@ -16,12 +21,12 @@ def jogar():
         
         index = 0 
         for letra in palavra_secreta:
-            if(chute.upper == letra.upper):
-                print('Encontrei a letra {} na posição {}'.format(letra, index))
+            if(chute.upper() == letra.upper()):
+                letras_acertadas[index] = letra
             index = index + 1
         
         
-        print('jogando...')
+        print(letras_acertadas)
 
 
 
